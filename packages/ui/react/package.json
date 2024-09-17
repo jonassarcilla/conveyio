@@ -1,6 +1,6 @@
 {
   "name": "@conveyio/ui-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -62,5 +62,13 @@
   "description": "react component library",
   "main": "index.ts",
   "author": "Jonas Rafael Sarcilla",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonassarcilla/conveyio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonassarcilla/conveyio/issues"
+  },
+  "homepage": "https://github.com/jonassarcilla/conveyio#readme"
 }
