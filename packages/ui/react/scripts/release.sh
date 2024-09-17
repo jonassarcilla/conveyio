@@ -13,7 +13,8 @@
 
   # Publish the project
   $(npm config set _authToken=$NPM_ACCESSTOKEN)
-  $(npm publish --access public)
+#   $(npm publish --access public)
+  $(npm publish --@conveyio:registry=https://registry.npmjs.org)
 
   # Commit the changes
   git add .
