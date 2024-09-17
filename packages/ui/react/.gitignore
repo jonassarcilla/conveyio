@@ -26,3 +26,5 @@ dist-ssr
 storybook-static
 *.env
 *.npmrc
+scripts/*
+scripts/release.sh
