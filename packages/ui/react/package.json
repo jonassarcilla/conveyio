@@ -1,6 +1,30 @@
 {
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Rafael Sarcilla",
+    "email": "jr.sarcilla07@gmail.com"
+  },
+  "description": "react component library",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "/dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "name": "@conveyio/ui-react",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -59,10 +83,6 @@
     "vite-plugin-dts": "^4.2.1",
     "vitest": "^2.1.1"
   },
-  "description": "react component library",
-  "main": "index.ts",
-  "author": "Jonas Rafael Sarcilla",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonassarcilla/conveyio.git"
