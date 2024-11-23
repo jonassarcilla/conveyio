@@ -3,6 +3,7 @@ import { isBlank } from 'common';
 const App = () => {
   return (
     <>
+      <h1>Junas</h1>
       <p>undefined isBlank - {isBlank(undefined) ? 'true' : 'false'}</p>
       <p>false isBlank - {isBlank(false) ? 'true' : 'false'}</p>
       <p>true isBlank - {isBlank(true) ? 'true' : 'false'}</p>
