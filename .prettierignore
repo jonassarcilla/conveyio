@@ -1,0 +1,1 @@
+-e "coverage\npublic\ndist\npnpm-lock.yaml\npnpm-workspace.yaml" 
